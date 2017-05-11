@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version  = '>= 2.0.0'
   s.summary                = 'Sensu plugins for skel'
   s.test_files             = s.files.grep(%r{^(test|spec|features)/})
-  s.version                = SensuPluginsskel::Version::VER_STRING
+  s.version                = SensuPluginsSkel::Version::VER_STRING
 
   s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
 
