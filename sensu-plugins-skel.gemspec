@@ -20,7 +20,7 @@ Gem::Specification.new do |s| # rubocop:disable Metrics/BlockLength
                                'release_prerelease' => 'false' }
   s.name                   = 'sensu-plugins-skel'
   s.platform               = Gem::Platform::RUBY
-  s.post_install_message   = 'You can use the embedded Ruby by setting EMBEDDED_RUBY=true in /etc/default/sensu'
+  s.post_install_message   = 'Thank you for installing Sensu Plugins!'
   s.require_paths          = ['lib']
   s.required_ruby_version  = '>= 2.0.0'
   s.summary                = 'Sensu plugins for skel'
