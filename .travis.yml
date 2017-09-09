@@ -18,9 +18,9 @@ notifications:
     on_success: change
     on_failure: always
 script:
-- bundle exec rake default
-- gem build sensu-plugins-skel.gemspec
-- gem install sensu-plugins-skel-*.gem
+  - gem build sensu-plugins-skel.gemspec
+  - gem install sensu-plugins-skel-*.gem
+  - bundle exec rake default
 deploy:
   provider: rubygems
   api_key:
