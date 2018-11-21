@@ -1,1 +1,1 @@
-[Development Documentation](http://sensu-plugins.io/docs/developer_guidelines.html)
+[Development Documentation](https://docs.sensu.io/plugins/1.0/developer-guidelines/)
