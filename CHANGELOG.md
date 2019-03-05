@@ -5,12 +5,18 @@ This CHANGELOG follows the format located [here](https://github.com/sensu-plugin
 
 ## [Unreleased]
 
+### Changed
+- bumped dependencies of `bundler` and `github-markup` (@majormoses)
+
 ### Security
 - updated `yard` dependency to `~> 0.9.11` per: https://nvd.nist.gov/vuln/detail/CVE-2017-17042 which closes attacks against a yard server loading arbitrary files (@majormoses)
 
 ### Breaking Changes
 - bumped dependency of `sensu-plugin` to 2.x you can read about it [here](https://github.com/sensu-plugins/sensu-plugin/blob/master/CHANGELOG.md#v200---2017-03-29) (@majormoses)
 - dropped ruby 2.0 support (@majormoses)
+
+### Removed
+- explicit version lock on `mixlib-cli` as we no longer support ruby 2.1 (@majormoses)
 
 ### Added
 - Basic Skel to be used to make new plugin repo setup easier.
